@@ -2,9 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  --background: #ffffff;
+  --background: #fffbf6;
   --foreground: #171717;
+  --flower-pink: #ffc4c4;
+  --text-color: #ee6983;
+  --matcha-green:#c7dfb7;
+  --font-primary: 'Lilita One', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+}
+
+*{
+  color: var(--text-color);
+  font-family: var(--font-secondary);
+  font-size: 18px;
+}
+ol,
+ul,
+menu {
+  list-style: none;
+}
+h1{
+  font-size: 30px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +35,17 @@
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+select:focus {
+  outline: none;
+  border: none;
+}
+.custom-gradient {
+    background: linear-gradient(to top,  var(--background), var(--matcha-green) , var(--background) );
+}
+
+.custom-gradientP {
+    background: linear-gradient(to top , var(--background) ,var(--flower-pink),var(--background) );
 }
