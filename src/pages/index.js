@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "../styles/globals.css";
+import "@/dist/output.css";
 import { Lilita_One, Playfair_Display } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
