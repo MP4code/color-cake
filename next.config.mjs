@@ -6,7 +6,7 @@ const nextConfig = {
     return config;
   },
   // Ajoutez cette ligne si vous utilisez des modules CSS
-  cssModules: true,
+
   // Désactivez temporairement ESLint pendant le build si nécessaire
   eslint: {
     ignoreDuringBuilds: true,

@@ -9,7 +9,7 @@ const lilitaOne = Lilita_One({
 
 export default function Footer() {
     return (
-        <div className={`${lilitaOne.variable} w-full font-[var(--font-primary)]`}>
+        <div className={`${lilitaOne.variable} w-full font-primary`}>
             <footer className="flex-col justify-items-center items-center bg-matchaGreen p-6  rounded-t-3xl" id="footer" >
 
                 < div className=" flex-1 flex-col justify-items-center items-center w-full" >

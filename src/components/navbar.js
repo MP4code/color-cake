@@ -4,7 +4,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className=" w-full bg-background shadow-md">
+        <nav className=" w-full bg-background shadow-md  hover:bg-flowerPink transition-colors duration-500">
             <div className="container mx-auto px-4 py-3 flex items-center justify-between">
                 <div className="text-2xl font-bold">Color Cake</div>
                 <button
@@ -41,10 +41,10 @@ export default function Navbar() {
 
                 {/* Liens de navigation pour écran moyen et plus */}
                 <ul className="hidden md:flex space-x-6">
-                    <li><a href="#" className="hover:text-matchaGreen">Accueil</a></li>
-                    <li><a href="#reserver" className="hover:text-matchaGreen">Réservation</a></li>
-                    <li><a href="#tarif" className="hover:text-matchaGreen">Tarifs</a></li>
-                    <li><a href="#footer" className="hover:text-matchaGreen">Contact</a></li>
+                    <li><a href="#" className="hover:text-background">Accueil</a></li>
+                    <li><a href="#reserver" className="hover:text-background">Réservation</a></li>
+                    <li><a href="#tarif" className="hover:text-background">Tarifs</a></li>
+                    <li><a href="#footer" className="hover:text-background">Contact</a></li>
                 </ul>
             </div>
 

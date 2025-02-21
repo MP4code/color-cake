@@ -10,7 +10,7 @@ export default function FAQ() {
     };
 
     const faqData = [
-        { question: "Comment passer commande ?", answer: "Vous pouvez commander vos cupcakes personnalisés directement sur notre site.Une fois votre commande finalisée, il vous suffit de choisir une date de retrait ou de livraison." },
+        { question: "Comment passer commande ?", answer: "Vous pouvez commander vos cupcakes personnalisés directement sur notre site. Une fois votre commande finalisée, il vous suffit de choisir une date de retrait ou de livraison." },
         { question: "Quels sont les délais ?", answer: "Les commandes doivent être passées au moins 5 jours à l'avance." },
         { question: "Comment conserver mes cupcakes ?", answer: "conservez-les dans un endroit frais et sec, à l’abri de la chaleur. Ils se conservent jusqu’à 48 heures." },
         { question: "Quels moyens de paiement acceptez-vous ?", answer: "Nous acceptons les paiements par carte bancaire ou PayPal" },
